@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+max-width:1920px;
+}
+header{
+background-image: url('./images/istock-000048460746-large.png');
+min-height: 978px;
+
+}
+nav{
+	display: flex;
+	flex-direction: row;
+}
+.head_logo{
+margin-left:91px;
+margin-top:66px;
+}
+.header_menu{
+	margin-top:74px;
+	display: flex;
+	flex-direction: row;
+	margin-left:738px;
+	
+
+}
+.header_menu li{
+	list-style:none;
+	
+}
+
+.header_menu li a {
+		color:#fff;
+		text-transform:uppercase;
+			text-decoration:none;
+		font-family: 'Montserrat', sans-serif;
+		margin-left:10px;
+}
